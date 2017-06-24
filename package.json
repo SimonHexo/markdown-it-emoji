@@ -30,6 +30,9 @@
     "lib/",
     "dist/"
   ],
+  "dependencies": {
+    "twemoji": "^2.3.0"
+  },
   "devDependencies": {
     "browserify": "*",
     "coveralls": "^2.11.2",
