@@ -27,7 +27,7 @@ module.exports = function emoji_plugin(md, options) {
   
   md.renderer.rules.emoji = function(token, idx) {
     return twemoji.parse(token[idx].content, {
-      className: "fancybox emoji"
+      className: "nofancybox emoji"
     });
   };
 
